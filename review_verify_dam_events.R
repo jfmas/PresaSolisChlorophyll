@@ -45,4 +45,4 @@ bloque <- function(niv, leyenda) {
 library(gridExtra)
 g <- arrangeGrob(bloque(lev[1:4], FALSE), bloque(lev[5:7], TRUE), ncol = 1, heights = c(1, 1.12))
 ggsave(file.path(BASE, "figuras/eventos_cortina_S2.png"), g, width = 7.2, height = 6.2, dpi = 250, bg = "white")
-file.copy(file.path(BASE, "figuras/eventos_cortina_S2.png"), file.path(BASE, "paperIWA/figuras/FiguraS2_eventos_cortina.png"), overwrite = TRUE)
+file.copy(file.path(BASE, "figuras/eventos_cortina_S2.png"), file.path(BASE, "paperIWA/figuras/FiguraS1_eventos_cortina.png"), overwrite = TRUE)
